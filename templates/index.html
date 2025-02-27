@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Construction - Free HTML Bootstrap Template</title>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="{% static 'custom-font/fonts.css' %}" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
+        <!-- Bootsnav -->
+        <link rel="stylesheet" href="{% static 'css/bootsnav.css' %}">
+        <!-- Fancybox -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.fancybox.css?v=2.1.5' %}" media="screen" />	
+        <!-- Custom stylesheet -->
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js' %}"></script>
+        <![endif]-->
+        <style>
+            .logo {
+                width: 202px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Preloader -->
+
+        <!-- <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                </div>
+            </div>
+        </div> -->
+
+        <!--End off Preloader -->
+
+        <!-- Header -->
+        <header>
+            <!-- Top Navbar -->
+            <div class="top_nav">
+                <div class="container">
+                    <ul class="list-inline info">
+                        <li><a href="#"><span class="fa fa-phone"></span> 9887701938</a></li>
+                        <li><a href="#"><span class="fa fa-envelope"></span> info@lowcostconstruction.in</a></li>
+                        <li><a href="#"><span class="fa fa-clock-o"></span> Mon - Sun 9:00 - 19:00</a></li>
+                    </ul>
+                    <ul class="list-inline social_icon">
+                        <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                        <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                        <li><a href=""><span class="fa fa-behance"></span></a></li>
+                        <li><a href=""><span class="fa fa-dribbble"></span></a></li>
+                        <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href=""><span class="fa fa-youtube"></span></a></li>
+                    </ul>			
+                </div>
+            </div><!-- Top Navbar end -->
+
+            <!-- Navbar -->
+            <nav class="navbar bootsnav">
+                <!-- Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <!-- Atribute Navigation -->
+                    <div class="attr-nav">
+                        <ul>
+                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href=""><img class="logo" src="{% static 'images/logo.jpg' %}" alt=""></a>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav menu">
+                            <li><a href="">Home</a></li>                    
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact_form">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>   
+            </nav><!-- Navbar end -->
+        </header><!-- Header end -->
+
+
+        <section id="home" class="home">
+            <!-- Carousel -->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel-inner -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="{% static 'images/slider_img.jpg' %}" alt="Construction">
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                                <h3>Reliable & Affordable Solutions</h3>
+                                <h1>Low Cost Construction</h1>
+                                <h1 class="second_heading">Quality & Efficiency</h1>
+                                <p>We provide cost-effective and high-quality construction solutions with durable materials. Our expertise ensures strong foundations and innovative designs tailored to your needs.</p>
+                                <a class="btn know_btn">Know More</a>
+                                <a class="btn know_btn">View Projects</a>
+                            </div>					
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/slider_img2.jpg' %}" alt="Construction">
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                                <h3>Building Your Future</h3>
+                                <h1>Material Hub</h1>
+                                <h1 class="second_heading">Trusted & Affordable</h1>
+                                <p>We supply high-quality construction materials at unbeatable prices. From cement to steel, our materials ensure durability, strength, and cost-effectiveness for your projects.</p>
+                                <a class="btn know_btn">Know More</a>
+                                <a class="btn know_btn">View Products</a>
+                            </div>					
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/slider_img3.jpg' %}" alt="Construction">
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                                <h3>Your Trusted Construction Partner</h3>
+                                <h1>Low Cost Construction</h1>
+                                <h1 class="second_heading">Smart & Sustainable</h1>
+                                <p>We are committed to providing affordable, eco-friendly, and durable construction solutions. Whether residential or commercial, we bring your vision to life with precision and expertise.</p>
+                                <a class="btn know_btn">Know More</a>
+                                <a class="btn know_btn">Contact Us</a>
+                            </div>					
+                        </div>
+                    </div>
+                    
+                </div><!-- Carousel-inner end -->
+
+
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!-- Carousel end-->
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+            <div class="container about_bg">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="about_content">
+                            <h2>Welcome to Low Cost Construction</h2>
+                            <h3>Low Cost Construction & Matrial Hub founded in 2025 in Jaipur Kalwar Road Govindpura </h3>
+                            <p>At Low Cost Construction, we are committed to providing high-quality, affordable building solutions. Our goal is to make construction accessible to everyone by using cost-effective materials, innovative techniques, and efficient project management.founded by Kamlesh Kumwat in 2025</p>
+                            <p>We specialize in residential, commercial, and infrastructure projects, ensuring durability, sustainability, and affordability. Whether you're looking to build your dream home or develop large-scale projects, our expertise ensures timely delivery and budget-friendly execution.</p>
+                            <a class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-lg-offset-1">
+                        <div class="about_banner">
+                            <img src="{% static 'images/man.png' %}" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- About end -->
+
+        <!-- Why us -->
+        <section id="why_us">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="head_title">
+                            <h2>WHY CHOOSE US?</h2>
+                            <p>At Low Cost Construction, we are committed to delivering high-quality, budget-friendly construction solutions. Our expertise in cost-effective building techniques ensures that every project is completed with excellence, efficiency, and sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-leaf"></span>
+                            <h4>We Deliver Quality</h4>
+                            <p>We use durable materials and innovative construction methods to ensure that every structure meets the highest standards of quality and safety.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-clock-o"></span>
+                            <h4>Always On Time</h4>
+                            <p>Timely project completion is our priority. We follow a streamlined process to ensure every project is delivered within the agreed timeframe.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-heart"></span>
+                            <h4>We Are Passionate</h4>
+                            <p>Our team is dedicated to creating structures that are not only functional but also aesthetically pleasing, ensuring customer satisfaction in every project.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-briefcase"></span>
+                            <h4>Professional Services</h4>
+                            <p>With a team of skilled engineers, architects, and project managers, we provide professional and reliable construction services tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why us end -->
+        
+
+        <!-- Services -->
+        <section id="services">
+            <div class="container">
+                <h2>OUR SERVICES</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{% static 'images/service_img1.jpg' %}" alt="Building Materials" />
+                            <h3>All Types of Building Materials</h3>
+                            <p>We provide a wide range of high-quality building materials, including cement, bricks, steel, and more, ensuring durability and strength for all construction projects.</p>
+                            <a href="#services" class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{% static 'images/service_img2.jpg' %}" alt="Flooring Solutions" />
+                            <h3>Complete Building & Flooring Solutions</h3>
+                            <p>From structural construction to premium flooring solutions, we offer comprehensive services that enhance the aesthetic and functional value of your space.</p>
+                            <a href="#services" class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{% static 'images/service_img3.jpg' %}" alt="Reliable Services" />
+                            <h3>Reliable Service for Homeowners & Builders</h3>
+                            <p>Whether you're a homeowner or a contractor, our expert team ensures smooth project execution with reliable and efficient service at every stage.</p>
+                            <a href="#services" class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{% static 'images/service_img1.jpg' %}" alt="Quality Materials" />
+                            <h3>Quality Materials at Competitive Prices</h3>
+                            <p>We offer top-quality materials at the best prices, ensuring affordability without compromising on strength and longevity.</p>
+                            <a href="#services" class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{% static 'images/service_img3.jpg' %}" alt="Light & Plumbing Fittings" />
+                            <h3>Light & Plumbing Fitting Materials</h3>
+                            <p>We supply a complete range of electrical and plumbing fittings, including pipes, fixtures, wiring, and lighting solutions for all types of buildings.</p>
+                            <a href="#services" class="btn know_btn">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Services end -->
+        
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container portfolio_area text-center">
+                <h2>Our Recent Projects</h2>
+                <p>At Low Cost Construction, we take pride in delivering high-quality and budget-friendly construction projects. From residential buildings to plumbing and interior design, we ensure durability, functionality, and aesthetic appeal in every project.</p>
+        
+                <div id="filters">
+                    <button class="button is-checked" data-filter="*">Show All</button>
+                    <button class="button" data-filter=".buildings">Buildings</button>
+                    <button class="button" data-filter=".interior">Interior Design</button>
+                    <button class="button" data-filter=".isolation">Insulation Solutions</button>
+                    <button class="button" data-filter=".plumbing">Plumbing & Fittings</button>
+                </div>
+                
+                <!-- Portfolio grid -->		
+                <div class="grid">
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
+                        <img alt="Building Project" src="{% static 'images/highligh_img.jpg' %}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{% static 'images/highligh_img.jpg' %}" data-fancybox-group="gallery" title="Modern Residential Building"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>  
+                    </div>
+        
+                    <div class="grid-item buildings interior isolation">
+                        <img alt="Interior Design" src="{% static 'images/portfolio1.jpg' %}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{% static 'images/portfolio1.jpg' %}" data-fancybox-group="gallery" title="Elegant Interior Design"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>   
+                    </div>
+        
+                    <div class="grid-item interior plumbing isolation">
+                        <img alt="Plumbing Work" src="{% static 'images/portfolio2.jpg' %}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{% static 'images/portfolio2.jpg' %}" data-fancybox-group="gallery" title="Efficient Plumbing Installation"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>  
+                    </div>
+        
+                    <div class="grid-item isolation buildings">
+                        <img alt="Insulation Project" src="{% static 'images/portfolio3.jpg' %}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{% static 'images/portfolio3.jpg' %}" data-fancybox-group="gallery" title="Energy-Efficient Insulation"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>  
+                    </div>
+        
+                    <div class="grid-item plumbing isolation">
+                        <img alt="Plumbing Fittings" src="{% static 'images/portfolio4.jpg' %}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{% static 'images/portfolio4.jpg' %}" data-fancybox-group="gallery" title="High-Quality Plumbing Fittings"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>  
+                    </div>
+                </div><!-- Portfolio grid end -->
+            </div>
+        </section><!-- Portfolio end -->
+        
+
+        <!-- Testimonial -->
+        <section id="testimonial">
+            <div class="container text-center testimonial_area">
+                <h2>Customer Reviews</h2>
+                <p>At Low Cost Construction, we pride ourselves on delivering quality services at affordable prices. Here’s what our customers have to say about their experience with us.</p>
+        
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial_item">
+                            <div class="testimonial_content text-left">
+                                <p>"I had a great experience with Low Cost Construction. They provided top-quality materials for my home at a very reasonable price. The service was excellent!"</p>
+                            </div>
+                            <img src="{% static 'images/testimonial_img1.png' %}" alt="Testimonial" />
+                            <p class="worker_name">Vinod Yadav</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial_item">
+                            <div class="testimonial_content">
+                                <p>"Professional and timely service! They helped me with complete flooring solutions, and the results were beyond my expectations. Highly recommended!"</p>
+                            </div>
+                            <img src="{% static 'images/testimonial_img2.png' %}" alt="Testimonial" />
+                            <p class="worker_name">Yogesh Kumawat</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial_item">
+                            <div class="testimonial_content">
+                                <p>"Reliable and efficient! They supplied all types of building materials for my project and ensured everything was of top-notch quality. Will definitely work with them again."</p>
+                            </div>
+                            <img src="{% static 'images/testimonial_img1.png' %}" alt="Testimonial" />
+                            <p class="worker_name">Anil Singh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Testimonial end -->
+        
+
+        <!-- Contact form -->
+        <section id="contact_form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Do you have any questions?</h2>
+                        <h2 class="second_heading">Feel free to contact us!</h2>
+                    </div>
+                    <form role="form" class="form-inline text-right col-md-6" >
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn submit_btn">Submit</button>
+                    </form>				
+                </div>
+            </div>
+        </section><!-- Contact form end -->
+
+        <!-- Footer -->
+        <footer>
+            <!-- Footer top -->
+            <div class="container footer_top">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-7">
+                        <div class="footer_item">
+                            <h4>About Low Cost Construction</h4>
+                            <img class="logo" src="{% static 'images/logo.jpg' %}" alt="Low Cost Construction" />
+                            <p>We provide high-quality building materials, flooring solutions, and professional construction services at competitive prices. Our commitment to quality and timely delivery has made us a trusted name in the industry.</p>
+        
+                            <ul class="list-inline footer_social_icon">
+                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                                <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-5">
+                        <div class="footer_item">
+                            <h4>Quick Links</h4>
+                            <ul class="list-unstyled footer_menu">
+                                <li><a href="#"><span class="fa fa-play"></span> Our Services</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> About Us</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Projects</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Testimonials</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Contact Us</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Privacy Policy</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Terms & Conditions</a></li>
+                                <li><a href="#"><span class="fa fa-play"></span> Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="footer_item">
+                            <h4>Latest News</h4>
+                            <ul class="list-unstyled post">
+                                <li><a href="#"><span class="date">15 <small>FEB</small></span> New Affordable Flooring Solutions Now Available</a></li>
+                                <li><a href="#"><span class="date">10 <small>FEB</small></span> Tips for Choosing the Right Building Materials</a></li>
+                                <li><a href="#"><span class="date">05 <small>FEB</small></span> How to Save Costs in Home Construction</a></li>
+                                <li><a href="#"><span class="date">01 <small>FEB</small></span> Latest Plumbing Solutions for Modern Homes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="footer_item">
+                            <h4>Contact Us</h4>
+                            <ul class="list-unstyled footer_contact">
+                                <li><a href="#"><span class="fa fa-map-marker"></span> Niwaru Link Road Govindpura Jaipur 302021</a></li>
+                                <li><a href="mailto:info@lowcostconstruction.com"><span class="fa fa-envelope"></span> info@lowcostconstruction.in</a></li>
+                                <li><a href="tel:+1234567890"><span class="fa fa-mobile"></span><p>+8080264013 <br />+9887701938</p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Footer top end -->
+        
+
+            <!-- Footer bottom -->
+            <div class="footer_bottom text-center">
+                <p class="wow fadeInRight">
+                    Made with 
+                    <i class="fa fa-heart"></i>
+                    by 
+                    <a target="_blank" href="#">LowCost Construction</a> 
+                    2025. All Rights Reserved
+                </p>
+            </div><!-- Footer bottom end -->
+        </footer><!-- Footer end -->
+
+        <!-- JavaScript -->
+        <script src="{% static 'js/jquery-1.12.1.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+        <!-- Bootsnav js -->
+        <script src="{% static 'js/bootsnav.js' %}"></script>
+
+        <!-- JS Implementing Plugins -->
+        <script src="{% static 'js/isotope.js' %}"></script>
+        <script src="{% static 'js/isotope-active.js' %}"></script>
+        <script src="{% static 'js/jquery.fancybox.js?v=2.1.5' %}"></script>
+
+        <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>	
+</html>	
