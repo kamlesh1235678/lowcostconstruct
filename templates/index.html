@@ -27,6 +27,13 @@
                 width: 202px;
                 height: 50px;
             }
+            .man {
+                width: 491px;
+                height: 373px;
+                margin-left: -120px;
+                margin-top: 94px;
+                /* left: auto; */
+            }
         </style>
     </head>
     <body>
@@ -121,7 +128,7 @@
                 <!-- Carousel-inner -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="{% static 'images/slider_img.jpg' %}" alt="Construction">
+                        <img class="img-s" src="{% static 'images/project_banner_3.png' %}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
                                 <h3>Reliable & Affordable Solutions</h3>
@@ -134,7 +141,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{% static 'images/slider_img2.jpg' %}" alt="Construction">
+                        <img src="{% static 'images/project_banner_2.png' %}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
                                 <h3>Building Your Future</h3>
@@ -147,7 +154,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{% static 'images/slider_img3.jpg' %}" alt="Construction">
+                        <img src="{% static 'images/project_banner_1.png' %}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
                                 <h3>Your Trusted Construction Partner</h3>
@@ -193,7 +200,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
                         <div class="about_banner">
-                            <img src="{% static 'images/man.png' %}" alt="" />
+                            <img class="man" src="{% static 'images/man1.webp' %}" alt="" />
                         </div>
                     </div>
                 </div>
@@ -253,7 +260,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="{% static 'images/service_img1.jpg' %}" alt="Building Materials" />
+                            <img src="{% static 'images/service1.webp' %}" alt="Building Materials" />
                             <h3>All Types of Building Materials</h3>
                             <p>We provide a wide range of high-quality building materials, including cement, bricks, steel, and more, ensuring durability and strength for all construction projects.</p>
                             <a href="#services" class="btn know_btn">Know More</a>
@@ -261,7 +268,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="{% static 'images/service_img2.jpg' %}" alt="Flooring Solutions" />
+                            <img src="{% static 'images/service2.webp' %}" alt="Flooring Solutions" />
                             <h3>Complete Building & Flooring Solutions</h3>
                             <p>From structural construction to premium flooring solutions, we offer comprehensive services that enhance the aesthetic and functional value of your space.</p>
                             <a href="#services" class="btn know_btn">Know More</a>
@@ -269,7 +276,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="{% static 'images/service_img3.jpg' %}" alt="Reliable Services" />
+                            <img src="{% static 'images/service3.webp' %}" alt="Reliable Services" />
                             <h3>Reliable Service for Homeowners & Builders</h3>
                             <p>Whether you're a homeowner or a contractor, our expert team ensures smooth project execution with reliable and efficient service at every stage.</p>
                             <a href="#services" class="btn know_btn">Know More</a>
@@ -279,7 +286,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="{% static 'images/service_img1.jpg' %}" alt="Quality Materials" />
+                            <img src="{% static 'images/service4.webp' %}" alt="Quality Materials" />
                             <h3>Quality Materials at Competitive Prices</h3>
                             <p>We offer top-quality materials at the best prices, ensuring affordability without compromising on strength and longevity.</p>
                             <a href="#services" class="btn know_btn">Know More</a>
@@ -287,7 +294,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="{% static 'images/service_img3.jpg' %}" alt="Light & Plumbing Fittings" />
+                            <img src="{% static 'images/service5.webp' %}" alt="Light & Plumbing Fittings" />
                             <h3>Light & Plumbing Fitting Materials</h3>
                             <p>We supply a complete range of electrical and plumbing fittings, including pipes, fixtures, wiring, and lighting solutions for all types of buildings.</p>
                             <a href="#services" class="btn know_btn">Know More</a>
@@ -316,41 +323,41 @@
                 <div class="grid">
                     <div class="grid-sizer"></div>
                     <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
-                        <img alt="Building Project" src="{% static 'images/highligh_img.jpg' %}" >
+                        <img alt="Building Project" src="{% static 'images/project5 (5).webp' %}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{% static 'images/highligh_img.jpg' %}" data-fancybox-group="gallery" title="Modern Residential Building"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{% static 'images/project5 (5).webp' %}" data-fancybox-group="gallery" title="Modern Residential Building"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>  
                     </div>
         
                     <div class="grid-item buildings interior isolation">
-                        <img alt="Interior Design" src="{% static 'images/portfolio1.jpg' %}" >
+                        <img alt="Interior Design" src="{% static 'images/project5 (1).webp' %}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{% static 'images/portfolio1.jpg' %}" data-fancybox-group="gallery" title="Elegant Interior Design"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{% static 'images/project5 (1).webp' %}" data-fancybox-group="gallery" title="Elegant Interior Design"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>   
                     </div>
         
                     <div class="grid-item interior plumbing isolation">
-                        <img alt="Plumbing Work" src="{% static 'images/portfolio2.jpg' %}" >
+                        <img alt="Plumbing Work" src="{% static 'images/project5 (2).webp' %}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{% static 'images/portfolio2.jpg' %}" data-fancybox-group="gallery" title="Efficient Plumbing Installation"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{% static 'images/project5 (2).webp' %}" data-fancybox-group="gallery" title="Efficient Plumbing Installation"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>  
                     </div>
         
                     <div class="grid-item isolation buildings">
-                        <img alt="Insulation Project" src="{% static 'images/portfolio3.jpg' %}" >
+                        <img alt="Insulation Project" src="{% static 'images/project5 (3).webp' %}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{% static 'images/portfolio3.jpg' %}" data-fancybox-group="gallery" title="Energy-Efficient Insulation"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{% static 'images/project5 (3).webp' %}" data-fancybox-group="gallery" title="Energy-Efficient Insulation"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>  
                     </div>
         
                     <div class="grid-item plumbing isolation">
-                        <img alt="Plumbing Fittings" src="{% static 'images/portfolio4.jpg' %}" >
+                        <img alt="Plumbing Fittings" src="{% static 'images/project5 (4).webp' %}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{% static 'images/portfolio4.jpg' %}" data-fancybox-group="gallery" title="High-Quality Plumbing Fittings"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{% static 'images/project5 (4).webp' %}" data-fancybox-group="gallery" title="High-Quality Plumbing Fittings"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>  
                     </div>
@@ -372,7 +379,7 @@
                                 <p>"I had a great experience with Low Cost Construction. They provided top-quality materials for my home at a very reasonable price. The service was excellent!"</p>
                             </div>
                             <img src="{% static 'images/testimonial_img1.png' %}" alt="Testimonial" />
-                            <p class="worker_name">Vinod Yadav</p>
+                            <p class="worker_name">Anita verma</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -381,7 +388,7 @@
                                 <p>"Professional and timely service! They helped me with complete flooring solutions, and the results were beyond my expectations. Highly recommended!"</p>
                             </div>
                             <img src="{% static 'images/testimonial_img2.png' %}" alt="Testimonial" />
-                            <p class="worker_name">Yogesh Kumawat</p>
+                            <p class="worker_name">Vinod Yadav</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -389,7 +396,7 @@
                             <div class="testimonial_content">
                                 <p>"Reliable and efficient! They supplied all types of building materials for my project and ensured everything was of top-notch quality. Will definitely work with them again."</p>
                             </div>
-                            <img src="{% static 'images/testimonial_img1.png' %}" alt="Testimonial" />
+                            <img src="{% static 'images/testimonial_img3.webp' %}" alt="Testimonial" />
                             <p class="worker_name">Anil Singh</p>
                         </div>
                     </div>
